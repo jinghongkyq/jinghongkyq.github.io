@@ -83,6 +83,20 @@ Do you accept the previously read EULA?
 
 安装完成后输入sudo service lightdm start 回到图形界面。
 
+**配置环境变量**
+ctrl+alt+t 打开终端，然后输入sudo gedit ~/.bashrc
+在打开的文件最后添加如下两行
+```
+export PATH=/usr/local/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+```
+保存后关闭
+终端中输入使环境变量生效 ```source ~/.bashrc```
+然后终端中输入 ```sudo gedit /etc/ld.so.conf```
+在文件最后添加这条语句 ```/usr/local/cuda/lib64``` 然后保存关闭
+终端中输入 ```sudo ldconfig```
+接着输入 ```sudo ldconfig -v|grep cuda```
+
 
 
 
