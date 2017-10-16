@@ -84,6 +84,7 @@ Do you accept the previously read EULA?
 安装完成后输入sudo service lightdm start 回到图形界面。
 
 **配置环境变量**
+
 ctrl+alt+t 打开终端，然后输入sudo gedit ~/.bashrc
 在打开的文件最后添加如下两行
 ```
@@ -113,6 +114,7 @@ cd /home/你的用户名/caffe
 cp Makefile.config.example Makefile.config
 gedit Makefile.config
 ```
+
 改这里
 
 ```
