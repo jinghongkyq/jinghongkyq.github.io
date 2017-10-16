@@ -100,6 +100,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
 ### 安装编译`Caffe`
 * Caffe依赖库安装
+
 ```
 sudo apt-get install libatlas-base-dev
 sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libboost-all-dev libhdf5-serial-dev
@@ -109,6 +110,7 @@ sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev protobuf-compi
 * Caffe编译
 1. 下载Caffe `git clone https://github.com/BVLC/caffe.git`
 2. 修改 `Makefile.config` 文件
+
 ```
 cd /home/你的用户名/caffe
 cp Makefile.config.example Makefile.config
@@ -133,6 +135,7 @@ make matcaffe
 ```
 可能会出现gcc版本的问题无法编译`matcaffe`,系统自带gcc版本是4.8,而MATLAB2015b支持gcc4.7,参考[How to switch your gcc/g++ version in ubuntu](https://archerfmy.github.io/2017/04/12/How-to-switch-your-gcc-g-version-in-ubuntu/)切换到gcc4.7版本（4.8也在）。
 注意gcc和g++版本要一致。
+
 ```
 sudo apt-get install gcc-4.7 gcc-4.7-multilib g++-4.7 g++-4.7-multilib
 
