@@ -97,6 +97,58 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 终端中输入 ```sudo ldconfig```
 接着输入 ```sudo ldconfig -v|grep cuda```
 
+### 安装编译`Caffe`
+* Caffe依赖库安装
+```
+sudo apt-get install libatlas-base-dev
+sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libboost-all-dev libhdf5-serial-dev
+sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev protobuf-compiler
+```
 
+* Caffe编译
+1. 下载Caffe `git clone https://github.com/BVLC/caffe.git`
+2. 修改 `Makefile.config` 文件
+```
+cd /home/你的用户名/caffe
+cp Makefile.config.example Makefile.config
+gedit Makefile.config
+```
+改这里
+```
+# This is required only if you will compile the matlab interface.
+# MATLAB directory should contain the mex binary in /bin.
+MATLAB_DIR := /usr/local/MATLAB/R2015b
+# MATLAB_DIR := /Applications/MATLAB_R2012b.app
+
+WITH_PYTHON_LAYER:=1
+```
+
+3. 编译
+```
+make all -j
+make matcaffe
+```
+可能会出现gcc版本的问题无法编译`matcaffe`,系统自带gcc版本是4.8,而MATLAB2015b支持gcc4.7,参考[How to switch your gcc/g++ version in ubuntu](https://archerfmy.github.io/2017/04/12/How-to-switch-your-gcc-g-version-in-ubuntu/)切换到gcc4.7版本（4.8也在）。
+注意gcc和g++版本要一致。
+```
+sudo apt-get install gcc-4.7 gcc-4.7-multilib g++-4.7 g++-4.7-multilib
+
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50  #后面数字是优先级
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 50
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.7 40
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.7 40
+
+sudo update-alternatives --config gcc  #点Enter
+sudo update-alternatives --config g++
+```
+
+重新编译caffe
+```
+make clean
+make all -j
+make matcaffe
+make mattest
+make pycaffe
+```
 
 
