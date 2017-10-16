@@ -5,4 +5,4 @@
 
 **goals**: using a single multiscale convolutional network architecture: depth prediction, surface normal estimation, and semantic labeling.
 
-![1](https://github.com/jinghongkyq/jinghongkyq.github.io/blob/master/PaperReading/data/1.png) ![2](https://github.com/jinghongkyq/jinghongkyq.github.io/blob/master/PaperReading/data/2.png)
+![1](https://github.com/jinghongkyq/jinghongkyq.github.io/blob/master/PaperReading/data/1.png =50) ![2](https://github.com/jinghongkyq/jinghongkyq.github.io/blob/master/PaperReading/data/2.png)
