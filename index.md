@@ -8,4 +8,4 @@ layout: default
 
 [Caffe Configuration](caffe_configuration.md)
 
-[Paper Reading](PaperReading/index.md)
+[Paper Reading](PaperReading_ind.md)
