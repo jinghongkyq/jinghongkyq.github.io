@@ -1,4 +1,2 @@
----
-layout: default
----
-[Predicting Depth, Surface Normals and Semantic Labels with a Common Multi-Scale Convolutional Architecture](2015_ICCV_Predicting Depth, Surface Normals and Semantic Labels with a Common Multi-Scale Convolutional Architecture.md)
+
+[2015_ICCV_Predicting Depth, Surface Normals and Semantic Labels with a Common Multi-Scale Convolutional Architecture](2015_ICCV_Predicting Depth, Surface Normals and Semantic Labels with a Common Multi-Scale Convolutional Architecture.md)
