@@ -114,11 +114,12 @@ cp Makefile.config.example Makefile.config
 gedit Makefile.config
 ```
 改这里
+
 ```
- # This is required only if you will compile the matlab interface.
- # MATLAB directory should contain the mex binary in /bin.
+# This is required only if you will compile the matlab interface.
+# MATLAB directory should contain the mex binary in /bin.
 MATLAB_DIR := /usr/local/MATLAB/R2015b
- # MATLAB_DIR := /Applications/MATLAB_R2012b.app
+# MATLAB_DIR := /Applications/MATLAB_R2012b.app
 
 WITH_PYTHON_LAYER:=1
 ```
