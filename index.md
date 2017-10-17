@@ -9,3 +9,5 @@ layout: default
 [Caffe Configuration](caffe_configuration.md)
 
 [Paper Reading](PaperReading_ind.md)
+
+[Caffe learning](caffe/index.md)
