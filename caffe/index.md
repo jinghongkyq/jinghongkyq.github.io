@@ -1,1 +1,1 @@
-[basic knowledges](index.md)
+[basic knowledges](basics.md)
