@@ -19,5 +19,5 @@ layer {
 }
 ```
 given the dimention of bottom: `N*5*H*W`, the dimentions of output tops are `N*1*H*W N*2*H*W N*1*H*W N*1*H*W`, respectively.
-`axis` indicates the target axis; 
+`axis` indicates the target axis;     
 `slice_point` indicates indexes in the selected dimension (the number of indices must be equal to the number of top blobs minus one).
