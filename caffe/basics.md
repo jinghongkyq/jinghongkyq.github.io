@@ -1,4 +1,4 @@
-* **Slice layer**  
+#### Slice layer 
 
 Decomposite `bottom` into several `tops` (Split layer copies `bottoms`, output to `tops`).
 ```
