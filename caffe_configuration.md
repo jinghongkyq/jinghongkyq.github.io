@@ -157,4 +157,15 @@ make mattest
 make pycaffe
 ```
 
+if use pycaffe, you need to add ~/caffe/python to $PYTHONPATH：
+```
+sudo gedit /etc/profile
+# add： export PYTHONPATH=/path/to/caffe/python:$PYTHONPATH
+source /etc/profile # 
+```
 
+test if pycaffe works
+```
+python
+import caffe
+```
