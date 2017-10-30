@@ -11,3 +11,5 @@ layout: default
 [Paper Reading](PaperReading_ind.md)
 
 [Caffe learning](caffe/index.md)
+
+[Python learning](python/index.md)
