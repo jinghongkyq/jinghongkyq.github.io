@@ -1,6 +1,6 @@
 #### Slice layer 
 
-Decomposite `bottom` into several `tops` (Split layer copies `bottoms`, output to `tops`).
+Decompose `bottom` into several `tops` (Split layer copies `bottoms`, output to `tops`).
 ```
 layer {
   name: "slice"
