@@ -169,3 +169,15 @@ test if pycaffe works
 python
 import caffe
 ```
+
+you may get the following error when run ``` make mattest```
+```
+Invalid MEX-file '/home/kyq/code/MarrRevisited/caffe/matlab/+caffe/private/caffe_.mexa64': /usr/local/MATLAB/R2015b/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6: version `GLIBCXX_3.4.18' not found (required by /usr/local/lib/libprotobuf.so.14)
+```
+
+then run
+```
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
+```
+
+make matcaffe again.
