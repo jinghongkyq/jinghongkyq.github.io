@@ -14,10 +14,14 @@ then refines it using finer-scale local networks.
 
 * Scale 2: Predictions
 > The job of the second scale is to produce predictions at a mid-level resolution.
+
 > concatenating the feature maps of the coarse network with those from a single layer of convolution and pooling, performed at finer stride.
+
 > The output of the second scale is a 55x74 prediction (for NYUDepth), with the number of channels depending on the task, train Scales 1 and 2 of the model jointly.
 
 * Scale 3: Higher Resolution
 > The final scale of our model refines the predictions to higher resolution.
+
 > concatenate the Scale-2 outputs with feature maps generated from the original input at yet finer stride.
+
 > The final output resolution is half the network input.
