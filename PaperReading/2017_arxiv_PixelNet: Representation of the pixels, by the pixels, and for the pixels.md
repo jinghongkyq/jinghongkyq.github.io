@@ -1,7 +1,7 @@
 ### PixelNet: Representation of the pixels, by the pixels, and for the pixels.
 2017 arxiv [Homepage](http://www.cs.cmu.edu/~aayushb/pixelNet/)
 
-![1](https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/Screenshot from 2018-01-20 14:06:10.png.png)
+![1](https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/Pixelnet.png)
 
 **Task**: general pixel-level prediction problems, from low-level edge detection to mid-level surface normal estimation to high-level semantic seg-
 mentation.
