@@ -12,6 +12,6 @@ we point out that such approaches are not statistically efficient during learnin
 the information learned from neighboring pixels.
 
 **Contribution**: We demonstrate that stratified sampling of pixels allows one to 
-> (1) add diversity during batch updates, speeding up learning; 
-> (2) explore complex nonlinear predictors, improving accuracy;
-> (3) efficiently train state-of-the-art models tabula rasa (i.e., “from scratch”) for diverse pixel-labeling tasks. 
+1. add diversity during batch updates, speeding up learning; 
+2. explore complex nonlinear predictors, improving accuracy;
+3. efficiently train state-of-the-art models tabula rasa (i.e., “from scratch”) for diverse pixel-labeling tasks. 
