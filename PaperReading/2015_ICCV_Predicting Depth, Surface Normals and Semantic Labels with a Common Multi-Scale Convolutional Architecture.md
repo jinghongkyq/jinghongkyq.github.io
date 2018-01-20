@@ -18,6 +18,6 @@ then refines it using finer-scale local networks.
 > The output of the second scale is a 55x74 prediction (for NYUDepth), with the number of channels depending on the task, train Scales 1 and 2 of the model jointly.
 
 * Scale 3: Higher Resolution
-*. The final scale of our model refines the predictions to higher resolution.
-*. concatenate the Scale-2 outputs with feature maps generated from the original input at yet finer stride.
-*. The final output resolution is half the network input.
+> The final scale of our model refines the predictions to higher resolution.
+> concatenate the Scale-2 outputs with feature maps generated from the original input at yet finer stride.
+> The final output resolution is half the network input.
