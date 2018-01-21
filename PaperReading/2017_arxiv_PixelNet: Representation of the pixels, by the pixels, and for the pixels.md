@@ -26,4 +26,9 @@ In detail:
 2. In contrast to the vast majority of models that make use of pre-trained networks, we show that pixel-level optimization can be used to train models tabula rasa, or “from scratch” with simple random Gaussian initialization. Intuitively, pixel-level
 labels provide a large amount of supervision compared to image-level labels, given proper accounting of correlations.
 Without using any extra data, our model outperforms previous unsupervised/self-supervised approaches for semantic
-segmentation on PASCAL VOC-2012 [26], and is competitive to fine-tuning from pre-trained models for surface normal estimation. 3. Using a single architecture and without much modification in parameters, we show state-of-the-art performance for edge detection on BSDS [4], surface normal estimation on NYUDv2 depth dataset [83], and semantic segmentation on the PASCAL-Context dataset [68].
+segmentation on PASCAL VOC-2012 [26], and is competitive to fine-tuning from pre-trained models for surface normal estimation. 
+3. Using a single architecture and without much modification in parameters, we show state-of-the-art performance for edge detection on BSDS [4], surface normal estimation on NYUDv2 depth dataset [83], and semantic segmentation on the PASCAL-Context dataset [68].
+
+**Algorithm**:
+
+hypercolumn features h_p(X) = [c_1(p), c_2(p),..., c_M(p)]
