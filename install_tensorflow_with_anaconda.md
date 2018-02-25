@@ -1,6 +1,8 @@
 ### install tensorflow with anaconda
 configuration: ubuntu 14.04, CUDA8.0, CUDNN v5, python2.7, anaconda2
+
 [tensorflow website1](https://www.tensorflow.org/install/install_linux)
+
 [tensorflow website2](https://www.tensorflow.org/versions/r0.12/get_started/os_setup#anaconda_installation)
 
 * Create a conda environment named tensorflow to run a version of Python by invoking the following command:
