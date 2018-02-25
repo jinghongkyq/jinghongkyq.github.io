@@ -13,3 +13,5 @@ layout: default
 [Caffe learning](caffe/index.md)
 
 [Python learning](python/index.md)
+
+[Install tensorflow with anaconda](install tensorflow with anaconda.md)
