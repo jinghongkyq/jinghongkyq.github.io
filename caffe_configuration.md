@@ -181,3 +181,15 @@ export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libstdc++.so.6
 ```
 
 make matcaffe again.
+
+* if meet error:
+```
+cannot find #include "caffe/proto/caffe.pb.h"
+```
+
+You need to generate caffe.pb.h manually using protoc as follows.
+```
+protoc src/caffe/proto/caffe.proto --cpp_out=.
+mkdir include/caffe/proto #(option)
+mv src/caffe/proto/caffe.pb.h include/caffe/proto #(option)
+```
