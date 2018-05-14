@@ -16,4 +16,3 @@ layout: default
 
 [Install tensorflow with anaconda](install_tensorflow_with_anaconda.md)
 
-***dfds
