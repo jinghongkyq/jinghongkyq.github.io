@@ -1,1 +1,1 @@
-[basic knowledges](basics.md)
+[Prerequisite](basics.md)
