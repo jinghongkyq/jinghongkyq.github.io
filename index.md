@@ -2,7 +2,7 @@
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Instruction of editing github.io](introduction.md)
+[Instruction of editing github.io](instruction.md)
 
 [Install Ubuntu System (16.04) Using USB](install_ubuntu.md)
 
