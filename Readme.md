@@ -15,3 +15,5 @@ layout: default
 [Python learning](python/index.md)
 
 [Install tensorflow with anaconda](install_tensorflow_with_anaconda.md)
+
+***
