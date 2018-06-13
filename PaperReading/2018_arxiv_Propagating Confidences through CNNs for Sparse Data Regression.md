@@ -45,6 +45,33 @@ the input is the projected LiDAR point cloud (RGB image optional), the goal is t
 
 3. evaluation metrics: *Mean Absolute Error (MAE)* which is an unbiased error metric, *Root Mean Square Error (RMSE)* which penalizes large errors, *Mean Absolute Relative Error (MRE)* is a ratio between the error magnitude and the groundtruth value, and *Inliers Ratio (δi)* which is the percentage of pixels having relative error less than a specific threshold to the power of i. As in [1], we use a challenging threshold value of δ = 1.01.
 
+4. quantitative comparions
+
+<img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/PC5.png" width="50%" height="50%">
+
+*NConv-1-Scale(16ch)*: architecture consists of 6 normalized convolution layers with filter sizes of 11 × 11, 7 × 7, 5 ×
+5, 3 × 3, 3 × 3 and 1 × 1 respectively with 16 channels each.  
+*NConv-1-Scale(4ch)*: same architecture, 4 channels each, much smaller number of parameters.  
+*Nconv-HMS*: multiscale as illustrated in Figure 2.  
+*scale-fusion scheme*: *Nconv-HMS* upsample the coarse scales, concatenate it with the finer scale, and then use a **normalized convolution** to learned the proper fuseion;  *Nconv-SF-STD* use the standard fusion.
+
+5. qualitative analysis
+
+<img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/PC6.png" width="50%" height="50%">
+
+> the output confidences from our method provide indication about how reliable the output depth maps are. At locations where neither input points nor groundtruth information is available, e.g. behind the cyclists or below the billboard, the output confidence is very low. Further, the results show that regions in the center of the scene tend to have high confidence due to the high point cloud density in the input. This demonstrates that our method for confidence propagation enables the network to learn the prominence of different regions with respect to the groundtruth.
+
+<img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/PC7.png" width="50%" height="50%">
+
+>  As discussed earlier, our single-scale architecture suffers from a limited receptive field and fails to predict values for regions above the horizon in some images. This leads to a significant increase in the RMSE. We addressed this problem by adopting a multiscale architecture to cover the whole receptive field.   
+
+> For the case of the multi-scale architecture, the error is mainly distributed along sharp edges and upon the horizon. This is likely due to the absence of structural information that could be found in RGB images. As shown in Figure 4, errors are distributed along the vehicles edges and close to the horizon. This problem could be addressed by incorporating prior knowledge about the structure of the scene from the RGB image.
+
+
+
+
+
+
 
 
 
