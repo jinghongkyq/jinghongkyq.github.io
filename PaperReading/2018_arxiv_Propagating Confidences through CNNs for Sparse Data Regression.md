@@ -5,8 +5,6 @@
 
 <img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/PC1.png" width="50%" height="50%">
 
-**Goal**  
-KITTI Depth Completion
+**Goal**: KITTI Depth Completion
 
-**Related work**  
-Sparsity Invariant CNNs
+**Related work**: Sparsity Invariant CNNs
