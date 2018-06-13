@@ -6,6 +6,6 @@
 
 > 2017, arxiv
 
-[Propagating Confidences through CNNs for Sparse Data Regression.md](PaperReading/2018_arxiv_Propagating Confidences through CNNs for Sparse Data Regression.md)
+[Propagating Confidences through CNNs for Sparse Data Regression](PaperReading/2018_arxiv_Propagating Confidences through CNNs for Sparse Data Regression.md)
 
 > 2018, arxiv
