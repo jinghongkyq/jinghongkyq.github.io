@@ -30,7 +30,8 @@ the input is the projected LiDAR point cloud (RGB image optional), the goal is t
   New loss: minimize the error norm between the output and the GT (data term), increase the confidence of the output data (confidence term).  
   <img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/PC3.png" width="50%" height="50%">
   
-** Network Architecture**
+**Network Architecture**
+
 <img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/PC4.png" width="50%" height="50%">
 
 > Inspired by [9], we propose a hierarchical multi-scale architecture that shares the same weights between different scales, which leads to a very compact network as shown in Figure 2. Downsampling is performed using max pooling on the confidences and similar to [13] we keep the indices of the pooled pixels, which are then used to select the same pixels from the feature maps, i.e., we keep the most confident feature map pixels. The downsampled confidences are divided by the Jacobian of the scaling to maintain absolute confidence levels. Scale fusion is performed by upsampling the coarser scale and concatenate it with the finer scale. We apply a normalized convolution operator on the concatenated feature map to allow the network to fuse different scales utilizing confidence information.
