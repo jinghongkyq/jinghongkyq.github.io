@@ -1,6 +1,6 @@
 ### Propagating Confidences through CNNs for Sparse Data Regression
 2018 arxiv  
-[Paper](https://arxiv.org/abs/1805.11913)
+[Paper](https://arxiv.org/abs/1805.11913)  
 
 **Abstract**
 
