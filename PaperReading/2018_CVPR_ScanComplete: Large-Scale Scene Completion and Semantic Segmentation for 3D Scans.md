@@ -8,3 +8,7 @@
 **Abstract**  
   
 <img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/scancomplete2.png" width="40%" height="40%">
+
+**Goal**:   
+> scene completion  
+> semantic segmentation  
