@@ -9,3 +9,7 @@
 [Propagating Confidences through CNNs for Sparse Data Regression](PaperReading/2018_arxiv_Propagating Confidences through CNNs for Sparse Data Regression.md)
 
 > 2018, arxiv
+
+[ScanComplete: Large-Scale Scene Completion and Semantic Segmentation for 3D Scans](PaperReading/2018_CVPR_ScanComplete_Large-Scale Scene Completion and Semantic Segmentation for 3D Scans.md)
+
+> 2018, CVPR
