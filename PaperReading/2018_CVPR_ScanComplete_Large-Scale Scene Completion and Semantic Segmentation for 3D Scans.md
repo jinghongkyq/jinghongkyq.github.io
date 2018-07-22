@@ -7,7 +7,7 @@
 
 **Abstract**  
   
-<img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/scancomplete2.png" width="40%" height="40%">
+<img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/scancomplete2.png" width="50%" height="50%">
 
 **Goal**
 > scene completion  
@@ -27,4 +27,7 @@ At train time, we provide the network with a target TDF, which is generated from
 
 Our network first predicts the output at a low resolution in order to leverage more global information from the input. Subsequent hierarchy levels operate at a higher resolution and smaller context size. They condition on the previous level’s output in addition to the current-level incomplete TSDF. We use three hierarchy levels, with a large context of several meters (∼ 6m3) at the coarsest level, up to a fine-scale voxel resolution of ∼ 5cm3; see Fig. 1.
 
-<img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/scancomplete3.png" width="100%" height="100%">
+<img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/scancomplete3.png" width="100%" height="100%">  
+
+**Data Generation**
+[SUNCG dataset](http://suncg.cs.princeton.edu/). train scenes: 5359, test scenes: 155
