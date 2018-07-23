@@ -30,4 +30,10 @@ Our network first predicts the output at a low resolution in order to leverage m
 <img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/scancomplete3.png" width="100%" height="100%">  
 
 **Data Generation**
-[SUNCG dataset](http://suncg.cs.princeton.edu/). train scenes: 5359, test scenes: 155
+[SUNCG dataset](http://suncg.cs.princeton.edu/).  
+train scenes: 5359, test scenes: 155
+
+**ScanComplete Network Architecture**  
+<img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/scancomplete4.png" width="100%" height="100%">  
+
+At each hierarchy level, the network takes the input partial scan as input (encoded as an TSDF in a volumetric grid) as well as the previous low-resolution TDF prediction (if not the base level) and any previous voxel group TDF predictions. Each of the input volumes is processed with a series of 3D convolutions with 1×1×1 convolution shortcuts. They are then all concatenated feature-wise and further processed with 3D convolutions with shortcuts. At the end, the network splits into two paths, one outputting the geometric completion, and the other outputting semantic segmentation, which are measured with an 1 loss and voxel-wise softmax cross entropy, respectively.  
