@@ -16,4 +16,4 @@ layout: default
 
 [Install tensorflow with anaconda](install_tensorflow_with_anaconda.md)
 
-[Install OpenGL on Ubuntu 14.04](Install OpenGL on Ubuntu 14.04.md)
+[Install OpenGL on Ubuntu 14.04](Install_OpenGL_on_Ubuntu.md)
