@@ -1,6 +1,6 @@
 #### Install OpenGL on Ubuntu 14.04
 
-[cita](https://www.linuxidc.com/Linux/2017-03/141555.htm)
+[cite](https://www.linuxidc.com/Linux/2017-03/141555.htm)
 
 * Install libraries
 
