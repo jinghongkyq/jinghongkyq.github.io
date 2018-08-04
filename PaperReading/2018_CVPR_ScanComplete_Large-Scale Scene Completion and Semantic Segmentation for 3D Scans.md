@@ -22,7 +22,8 @@
 
 **Methods**  
 ScanComplete method: input: a aprtial 3D scan, represented by a truncated signed distance field (TSDF) stored in a volumetric grid.  
-                     output: a truncated, unsigned distance field (TDF).  
+
+output: a truncated, unsigned distance field (TDF).  
 At train time, we provide the network with a target TDF, which is generated from a complete ground-truth mesh. The network is trained to output a TDF which is as similar as possible to this target complete TDF.
 
 Our network first predicts the output at a low resolution in order to leverage more global information from the input. Subsequent hierarchy levels operate at a higher resolution and smaller context size. They condition on the previous level’s output in addition to the current-level incomplete TSDF. We use three hierarchy levels, with a large context of several meters (∼ 6m3) at the coarsest level, up to a fine-scale voxel resolution of ∼ 5cm3; see Fig. 1.
@@ -36,7 +37,10 @@ train scenes: 5359, test scenes: 155
 **ScanComplete Network Architecture**  
 <img src="https://github.com/jinghongkyq/jinghongkyq.github.io/raw/master/PaperReading/data/scancomplete4.png" width="100%" height="100%">  
 
-At each hierarchy level, the network takes the input partial scan as input (encoded as an TSDF in a volumetric grid) as well as the previous low-resolution TDF prediction (if not the base level) and any previous voxel group TDF predictions. Each of the input volumes is processed with a series of 3D convolutions with 1×1×1 convolution shortcuts. They are then all concatenated feature-wise and further processed with 3D convolutions with shortcuts. At the end, the network splits into two paths, one outputting the geometric completion, and the other outputting semantic segmentation, which are measured with an 1 loss and voxel-wise softmax cross entropy, respectively.
+use voxel grid resolutions of [32 × 16 × 32], [32 × 32 × 32], and [32 × 64 × 32] for each level, resulting
+in spatial extents of [6m × 3m × 6m], [3m 3 ], [1.5m × 3m × 1.5m], respectively. For testing, we test on entire scenes.
+
+At each hierarchy level, the network takes the input partial scan as input (encoded as an TSDF in a volumetric grid) as well as the previous low-resolution TDF prediction (if not the base level) and any previous voxel group TDF predictions. Each of the input volumes is processed with a series of 3D convolutions with 1×1×1 convolution shortcuts. They are then all concatenated feature-wise and further processed with 3D convolutions with shortcuts. At the end, the network splits into two paths, one outputting the geometric completion, and the other outputting semantic segmentation, which are measured with an L1 loss and voxel-wise softmax cross entropy, respectively.
 
 **Loss**  
 deterministic l1-distance, which forces the network to focus on a single mode. This setup is ideal when partial scans contain enough context to allow for a single explanation of the missing geometry.   
