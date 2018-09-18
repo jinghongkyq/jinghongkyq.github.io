@@ -4,6 +4,8 @@
   `du -h file1/file.txt` or `du -sh file1/file.txt`      
 **information of each hard disk**   
   `df -h`      
+**the size of each folder/file in this path**  
+  `du -h --max-depth=1`  
 **copy file/folder**   
   `cp file1 file2`    
 **move file/folder**   
