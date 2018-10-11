@@ -22,3 +22,5 @@
   `CUDA_VISIBLE_DIVICES=id python train1.py`    
 **look up anaconda enviornment**  
   `conda env list`
+
+  cite https://www.jianshu.com/p/54181deedd42
