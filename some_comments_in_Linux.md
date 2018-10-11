@@ -20,5 +20,5 @@
   `ls -l|wc -l`    
 **set gpu id in pytorch**   
   `CUDA_VISIBLE_DIVICES=id python train1.py`    
-**look up anaconda enviornment**
+**look up anaconda enviornment**  
   `conda env list`
