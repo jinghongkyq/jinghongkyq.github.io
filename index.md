@@ -17,3 +17,5 @@ layout: default
 [Install tensorflow with anaconda](install_tensorflow_with_anaconda.md)  
 
 [Install OpenGL on Ubuntu 14.04](Install_OpenGL_on_Ubuntu.md)
+
+[Install pytorch tensorboard with anaconda](pytorch0.4.1_Ubuntu14.04_python3.6 _tensorboard.md)
