@@ -12,7 +12,7 @@ conda install pytorch torchvision cuda80 -c pytorch
 ```
 
 **install tensorflow**  
-go to website[tensorflow official](https://www.tensorflow.org/install/?hl=zh-cn)  
+go to website [tensorflow official](https://www.tensorflow.org/install/?hl=zh-cn)  
 ```
 pip install tensorflow  # CPU ONLY
 pip install tensorflow-GPU # CUDA-enabled
@@ -24,7 +24,7 @@ pip install tensorboardX
 ```
 
 ```
-from ensorboardX import SummaryWriter   
+from tensorboardX import SummaryWriter   
 writer = SummarytWriter('runs') # runs is a floder
 # writer = SummaryWriter(comment='meow') # you can add a comment as suffix 
 
