@@ -25,7 +25,7 @@ pip install tensorboardX
 
 ```
 from tensorboardX import SummaryWriter   
-writer = SummarytWriter('runs') # runs is a floder
+writer = SummaryWriter('runs') # runs is a floder
 # writer = SummaryWriter(comment='meow') # you can add a comment as suffix 
 
 # add scalar
