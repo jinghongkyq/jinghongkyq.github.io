@@ -14,6 +14,9 @@
 |-----|:-----:|:-----:|:-----:|:---:|   
 |1|![SFCN](PaperReading/data/SFCN_net.png)|__Salient Object Detection by Lossless Feature Reflection__|__IJCAI 2018__|[`Paper`](https://arxiv.org/pdf/1411.4734v4.pdf) [`github`](https://github.com/Pchank/caffe-sal/blob/master/IIAU2018.md) |  
 |2|![RFIN](PaperReading/data/RFIN_net.png)|__Deep Embedding Features for Salient Object Detection__|__AAAI 2019__|[`Paper`](https://drive.google.com/file/d/1l02_GtoMxRFy9IJifSjs-zjYOOQWoBfx/view) [`Conclusion`](PaperReading/2019_AAAI_RFIN.md) |  
+|3|![LPS](PaperReading/data/LPS_net.png)|__Learning to Promote Saliency Detectors__|__CVPR 2018__|[`Paper`](https://drive.google.com/file/d/1sGSMt8ZPZNFaStwiAeS6jkeBURSDHtO0/view) [`github`](https://github.com/zengxianyu/lps) |  
+
+
 
 
 
