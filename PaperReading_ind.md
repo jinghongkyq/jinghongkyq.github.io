@@ -28,6 +28,10 @@
 
 |No.   |Figure   |Title   |Pub.  |Links|    
 |-----|:-----:|:-----:|:-----:|:---:|   
+|7|![DGRL](PaperReading/data/DGRL_net.png)|__Detect Globally, Refine Locally: A Novel Approach to Saliency Detection__|__CVPR 2018__|[`Paper`](https://drive.google.com/file/d/17MyYRD5kbSFMn0bw7s5pbmWRU-R6_LiR/view)  [`github`](https://github.com/TiantianWang/CVPR18_detect_globally_refine_locally) |  
+|6|![R3NET](PaperReading/data/R3NET.png)|__R3Net: Recurrent Residual Refinement Network for Saliency Detection__|__IJCAI 2018__|[`Paper`](https://www.ijcai.org/proceedings/2018/0095.pdf)  [`github`](https://github.com/zijundeng/R3Net) |  
+|5|![DSS](PaperReading/data/DSS_Net.png)|__Deeply Supervised Salient Object Detection with Short Connections__|__CVPR 2017__|[`Paper`](https://arxiv.org/abs/1611.04849) [`github`](https://github.com/Andrew-Qibin/DSS) |  
+|4|![RAS](PaperReading/data/rasnet.png)|__Reverse Attention for Salient Object Detection__|__ECCV 2018__|[`Paper`](http://openaccess.thecvf.com/content_ECCV_2018/papers/Shuhan_Chen_Reverse_Attention_for_ECCV_2018_paper.pdf) [`github`](https://github.com/ShuhanChen/RAS_ECCV18) |  
 |3|![LPS](PaperReading/data/LPS_net.png)|__Learning to Promote Saliency Detectors__|__CVPR 2018__|[`Paper`](https://drive.google.com/file/d/1sGSMt8ZPZNFaStwiAeS6jkeBURSDHtO0/view) [`github`](https://github.com/zengxianyu/lps) |  
 |2|![RFIN](PaperReading/data/RFIN_net.png)|__Deep Embedding Features for Salient Object Detection__|__AAAI 2019__|[`Paper`](https://drive.google.com/file/d/1l02_GtoMxRFy9IJifSjs-zjYOOQWoBfx/view) [`notes`](PaperReading/2019_AAAI_RFIN.md) |  
 |1|![SFCN](PaperReading/data/SFCN_net.png)|__Salient Object Detection by Lossless Feature Reflection__|__IJCAI 2018__|[`Paper`](https://arxiv.org/pdf/1411.4734v4.pdf) [`github`](https://github.com/Pchank/caffe-sal/blob/master/IIAU2018.md) |  
