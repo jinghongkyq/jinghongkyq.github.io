@@ -28,6 +28,7 @@
 
 |No.   |Figure   |Title   |Pub.  |Links|    
 |-----|:-----:|:-----:|:-----:|:---:|   
+|8|![PiCA](PaperReading/data/PiCA_net.png)|__PiCANet: Learning Pixel-wise Contextual Attention for Saliency Detection__|__CVPR 2018__|[`Paper`](https://arxiv.org/abs/1708.06433)  [`github`](https://github.com/nian-liu/PiCANet) |  
 |7|![DGRL](PaperReading/data/DGRL_net.png)|__Detect Globally, Refine Locally: A Novel Approach to Saliency Detection__|__CVPR 2018__|[`Paper`](https://drive.google.com/file/d/17MyYRD5kbSFMn0bw7s5pbmWRU-R6_LiR/view)  [`github`](https://github.com/TiantianWang/CVPR18_detect_globally_refine_locally) |  
 |6|![R3NET](PaperReading/data/R3NET.png)|__R3Net: Recurrent Residual Refinement Network for Saliency Detection__|__IJCAI 2018__|[`Paper`](https://www.ijcai.org/proceedings/2018/0095.pdf)  [`github`](https://github.com/zijundeng/R3Net) |  
 |5|![DSS](PaperReading/data/DSS_Net.png)|__Deeply Supervised Salient Object Detection with Short Connections__|__CVPR 2017__|[`Paper`](https://arxiv.org/abs/1611.04849) [`github`](https://github.com/Andrew-Qibin/DSS) |  
