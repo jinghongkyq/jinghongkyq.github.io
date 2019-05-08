@@ -2,6 +2,7 @@
 
 |No.   |Figure   |Title   |Pub.  |Links|    
 |-----|:-----:|:-----:|:-----:|:---:|   
+|19|![deeplidar](PaperReading/data/deeplidar.png)|__DeepLiDAR: Deep Surface Normal Guided Depth Prediction for Outdoor Scene from Sparse LiDAR Data and Single Color Image__|__CVPR 2019__|[`Paper`](https://arxiv.org/abs/1812.00488)| 
 |18|![multiview](PaperReading/data/multiview.png)|__Multi-View 3D Object Detection Network for Autonomous Driving__|__arxiv 2016__|[`Paper`](https://arxiv.org/abs/1611.07759) [`github`](https://github.com/bostondiditeam/MV3D)| 
 |17|![megadepth](PaperReading/data/megadepth.png)|__MegaDepth: Learning Single-View Depth Prediction from Internet Photos__|__CVPR 2018__|[`Paper`](https://arxiv.org/abs/1804.00607) [`github`](https://github.com/lixx2938/MegaDepth)| 
 |16|![SPUV](PaperReading/data/SPUV.png)|__Structured Prediction of Unobserved Voxels From a Single Depth Image__|__CVPR 2016__|[`Paper`](http://visual.cs.ucl.ac.uk/pubs/depthPrediction/) [`github`](https://github.com/mdfirman/voxlets) [`project`](http://visual.cs.ucl.ac.uk/pubs/depthPrediction/)| 
