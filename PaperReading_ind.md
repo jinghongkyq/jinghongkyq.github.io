@@ -1,3 +1,9 @@
+### Basic Network
+
+|No.   |Figure   |Title   |Pub.  |Links|    
+|-----|:-----:|:-----:|:-----:|:---:|   
+|18|![hourglass](PaperReading/data/hourglass.png)|__Stacked Hourglass Networks for Human Pose Estimation__|__ECCV 2016__|[`Paper`](https://arxiv.org/abs/1603.06937) [`project`](http://www-personal.umich.edu/~alnewell/pose/) [`pytorch`](https://github.com/bearpaw/pytorch-pose)| 
+
 ### Depth Prediction / Completion
 
 |No.   |Figure   |Title   |Pub.  |Links|    
