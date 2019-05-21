@@ -4,7 +4,13 @@ layout: default
 
 [Instruction of editing github.io](instruction.md)
 
-[Install Ubuntu System (16.04) Using USB](install_ubuntu.md)
+[Install Ubuntu System (16.04) with USB](install_ubuntu.md)
+
+[Install NVIDIA Driver](install_nvidia_driver.md)
+
+[Install CUDA and CUDNN](install_cuda_cudnn.md)
+
+[Install software](install_software.md)
 
 [Caffe Configuration](caffe_configuration.md)
 
@@ -20,4 +26,4 @@ layout: default
 
 [Install pytorch tensorboard with anaconda](pytorch0.4.1_Ubuntu14.04_python3.6_tensorboard.md)  
 
-[Some comments in Linux](some_comments_in_Linux.md)
+[Some comments of Linux](some_comments_of_Linux.md)
