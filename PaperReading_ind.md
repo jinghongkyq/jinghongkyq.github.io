@@ -2,7 +2,9 @@
 
 |No.   |Figure   |Title   |Pub.  |Links|    
 |-----|:-----:|:-----:|:-----:|:---:|   
-|18|![hourglass](PaperReading/data/hourglass.png)|__Stacked Hourglass Networks for Human Pose Estimation__|__ECCV 2016__|[`Paper`](https://arxiv.org/abs/1603.06937) [`project`](http://www-personal.umich.edu/~alnewell/pose/) [`pytorch`](https://github.com/bearpaw/pytorch-pose)| 
+|3|![densesr](PaperReading/data/densesr.png)|__Residual Dense Network for Image Super-Resolution__|__CVPR 2018__|[`Paper`](https://arxiv.org/abs/1802.08797) [`github`](https://github.com/yulunzhang/RDN)| 
+|2|![densenet](PaperReading/data/densenet.jpg)|__Densely Connected Convolutional Networks__|__CVPR 2017__|[`Paper`](https://arxiv.org/abs/1608.06993) [`github`](https://github.com/liuzhuang13/DenseNet)| 
+|1|![hourglass](PaperReading/data/hourglass.png)|__Stacked Hourglass Networks for Human Pose Estimation__|__ECCV 2016__|[`Paper`](https://arxiv.org/abs/1603.06937) [`project`](http://www-personal.umich.edu/~alnewell/pose/) [`pytorch`](https://github.com/bearpaw/pytorch-pose)| 
 
 ### Depth Prediction / Completion
 
